@@ -1,0 +1,64 @@
+#footer{width:1200px;}
+.footer{
+    width:1200px;
+    background-color:#DA0023;
+    overflow:hidden;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.footer ul.footer-list{height:20px;}
+.footer ul.footer-list li{
+    float:left;
+    padding-left:50px;
+}
+.footer ul.footer-list li b{
+    display:inline-block;
+    margin-left:50px;
+    color:#fff;
+}
+.footer ul.footer-list li a{
+    color:#fff;
+    font:11px Microsoft Yahei;
+    text-decoration: none;
+}
+.footer ul.footer-list li a:hover{
+    color:black;
+}
+.footer>p{
+    text-align:center;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.footer>p>a>i{
+    font-size:36px;
+    color:#fff;
+}
+.footer>p>a:hover i{
+    color:#323232;
+}
+.footer>b{
+    font-size:55px;
+    color:#fff;
+    padding-left:360px;
+}
+.footer ul.footer-add{
+    padding-left:270px;
+    margin:40px 0;
+}
+.footer ul.footer-add li{
+    float:left;
+    font-size:15px;
+    color:#fff;
+    padding-left:10px;
+}
+.footer ul.footer-add b{
+    font-size:38px;
+    font-weight:normal;
+}
+.footer-last{
+    background-color:#323232;
+    color:#F2FFFF;
+    text-align:center;
+    font:13px "Microsoft Yahei";
+    padding:12px 0;
+}

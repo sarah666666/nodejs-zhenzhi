@@ -1,0 +1,373 @@
+/****************1. 广告轮播区域***********************/
+.banner{
+    width:1200px;
+    height:500px;
+    position:relative;
+    margin-top:60px;
+    margin-bottom:60px;
+}
+.banner>div{
+    position:absolute;
+    top:0px;
+    width:100px;
+    height:500px;
+    background-image:url("../imgs/index/banner-logo-1.png");
+}
+.banner>div:nth-child(3){
+    left:100px;background-position:-100px 0;
+}
+.banner>div:nth-child(4){
+    left:200px;background-position:-200px 0;
+}
+.banner>div:nth-child(5){
+    left:300px;background-position:-300px 0;
+}
+.banner>div:nth-child(6){
+    left:400px;background-position:-400px 0;
+}
+.banner>div:nth-child(7){
+    left:500px;background-position:-500px 0;
+}
+.banner>div:nth-child(8){
+    left:600px;background-position:-600px 0;
+}
+.banner>div:nth-child(9){
+    left:700px;background-position:-700px 0;
+}
+.banner>div:nth-child(10){
+    left:800px;background-position:-800px 0;
+}
+.banner>div:nth-child(11){
+    left:900px;background-position:-900px 0;
+}
+.banner>div:nth-child(12){
+    left:1000px;background-position:-1000px 0;
+}
+.banner>div:nth-child(13){
+    left:1100px;background-position:-1100px 0;
+}
+@keyframes shake{
+    0%{top:0px}
+    20%{top:-60px}
+    40%{top:50px}
+    60%{top:-40px}
+    80%{top:30px}
+    90%{top:-20px}
+    100%{top:0px}
+}
+.banner>div.shake{
+    animation:shake 1s linear;
+}
+.banner a.ck-slide{
+    font-size:28px;
+    color:white;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    line-height:50px;
+    text-align:center;
+    position:absolute;
+    top:50%;
+    background-color:gray;
+    opacity:0.5;
+    transition:all 1s linear;
+}
+.banner a.ck-left{
+    left:80px;
+}
+.banner a.ck-right{
+    right:80px;
+}
+.banner a.ck-slide:hover{
+    text-decoration: none;
+    opacity:1;
+}
+/*********************2. 每周客片区域******************************/
+
+.week-header{
+    width:1200px;
+    text-align:center;
+    font-size:28px;
+    color:#FF283C;
+    margin:20px 0 20px 0;
+}
+.week-header>div>span{
+    color:#323232;
+}
+.week-header>p{
+    color:#D3D0D0;
+    font-size:12px;
+}
+.week-show{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.week-show li{
+    width:380px;
+    height:300px;
+    float:left;
+    text-align:center;
+    position:relative;
+}
+.week-show li a.week-show-font{
+    font:16px "Microsoft yaHei";
+}
+.week-show li a.week-show-font:hover{
+    text-decoration:none;
+}
+.shade{
+    height:0;
+    text-align:center;
+    background-color:#242426;
+    opacity:0.5;
+    position:absolute;
+    top:0;
+    left:0;
+    transition:all 0.3s linear;
+    overflow:hidden;
+}
+.week-shade{
+    width:380px;
+}
+.week-shade p{
+    margin-top:100px;
+    margin-bottom:10px;
+}
+
+.week-show li a.week-show-pic:hover .week-shade{
+    height:240px;
+}
+.week-show li a.week-show-pic:hover{
+    color:white;
+}
+/*************************  3. 六大场馆 **********************/
+.venue{
+    width:1200px;
+
+    margin-top:80px;
+}
+.venue div.venue-title{
+    height:50px;
+    line-height:50px;
+    background-color:#ddd;
+    font-size:33px;
+    font-weight:bold;
+    text-align:center;
+    margin-bottom:20px;
+    color:#DA0023;
+}
+.venue div.venue-photos{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.venue div.venue-photos div{
+    width:300px;
+    height:300px;
+    position:relative;
+    margin-right:30px;
+    margin-bottom:40px;
+}
+.venue div.venue-photos img:nth-child(1){
+    z-index:10;
+}
+.venue div.venue-photos img.venue-detail{
+    z-index:-1;
+    border-radius:50%;
+    position:absolute;
+    top:50px;
+    left:50px;
+   
+}
+@keyframes push{
+    0%{top:50px;left:50px}
+    50%{top:0px;left:0px}
+    100%{top:50px;left:50px}
+}
+.venue div.venue-photos img.push{
+    animation:push 1s linear;
+}
+.venue div.venue-photos p{
+    position:absolute;
+    top:170px;
+    right:40px;
+    font:23px SimSun;
+    color:gray;
+}
+/************************* 4. 外景作品区域 **********************/
+.outer-show{
+    height:620px;
+    width:1200px;
+    margin-top:10px;
+}
+.outer-show>li{
+    float:left;
+    text-align:center;
+    position:relative;
+    vertical-align: middle;
+}
+
+.outer-show>li:nth-child(1){
+    width:360px;
+    height:590px;
+    margin-right:20px;
+}
+.outer-show>li:nth-child(2){
+    width:530px;
+    height:285px;
+    margin:0 20px 20px 0;
+}
+.outer-show>li:nth-child(3){
+    width:270px;
+    height:285px;
+    margin-bottom:20px;
+}
+.outer-show>li:nth-child(4){
+    width:270px;
+    height:285px;
+    margin-right:20px;
+}
+.outer-show>li:nth-child(5){
+    width:530px;
+    height:285px;
+}
+.outer-show>li>a>img{
+    width:100%;
+    height:100%;
+		position: absolute;
+    margin:auto;
+    top:0;left: 0;right:0;bottom:0;
+    object-fit:cover;
+    transition:all .3s linear;
+    padding:5px;
+    box-shadow:0 -2px 2px 1px #ddd,-2px 0 2px 1px #ddd,2px 0 2px 1px #ddd,0 2px 2px 1px #ddd;
+}
+.outer-show>li:hover img{
+    opacity:0.8;
+    width:95%;
+    height:95%;
+}
+.outer-show>li>div.move-content{
+    width:186px;
+    height:45px;
+    position:absolute;
+    margin:auto;
+		left:0;right:0;top:0;bottom:0;
+}
+.outer-show>li div.move-title{
+    color:black;
+    font-size:28px;
+    opacity:0;
+    position:absolute;
+    top:0;left:0;
+    transition:all .5s linear;
+}
+.outer-show>li div.move-title p{
+    font-size:12px;
+    color:#2F32FF;
+}
+
+.outer-show li div.move-left,div.move-right{
+    width:206px;
+    height:65px;
+    position:absolute;
+    background-color:white;
+    opacity:0;
+    transition:all .5s linear;
+}
+.outer-show li div.move-left{
+    top:-20px;
+    left:-20px;
+}
+.outer-show li div.move-right{
+    top:0;
+    left:0;
+}
+.outer-show>li:hover div.move-title{
+    opacity:1;
+    z-index:10;
+}
+.outer-show>li:hover div.move-left{
+    top:0;
+    left:0;
+    opacity:0.8;
+    z-index:1;
+}
+
+.outer-show>li:hover div.move-right{
+    top:-20px;
+    left:-20px;
+    opacity:0.8;
+    z-index:1;
+}
+
+/*********************** 5. 每周客片和外景作品的分页 *********************/
+.pagination1,.pagination{
+    margin-left:550px;
+    margin-bottom:60px;
+    height:18px;
+}
+.pagination1 li,.pagination li{
+    display:inline-block;
+    color:black;
+    border:1px solid #ddd;
+    border-radius:50%;
+    text-align:center;
+    background-color:darkgray;
+    float:left;
+    margin-left:10px;
+}
+.pagination1 li a,.pagination li a{
+    display:block;
+    width:22px;
+    height:22px;
+    line-height:22px;
+}
+.pagination1 li.active{
+    background-color:#DA0023;
+}
+.pagination li.active{
+    background-color:#DA0023;
+}
+/********************** 6.纯文字 ***************************/
+.pure-text{
+    color:#858586;
+    font:13px Microsoft Yahei;
+    text-align:center;
+    width:1200px;
+    margin:30px auto;
+}
+/********************** 7. 右侧固定导航 ***************************/
+.right-tab{
+    position:fixed;
+    top:300px;
+    right:0px;
+}
+.right-tab>li{
+    display:block;
+    line-height:30px;
+    text-align:center;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    background-color:#808080;
+    margin-top:5px;
+}
+.right-tab>li:hover{
+    background-color:#ddd;
+    cursor:pointer;
+}
+.right-tab>li a{
+    display:block;
+    width:70px;
+    height:30px;
+}
+.right-tab>li a:hover{
+    color:black;
+}
+.right-tab>li.active{
+    background-color:#EB6100;
+}
+
+
+

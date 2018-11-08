@@ -1,0 +1,38 @@
+.contact-box{
+    width:1200px;
+    height:660px;
+    background:-webkit-linear-gradient(top,#fff,#B0C8E0);
+    margin:0 auto;
+    padding:0 50px;
+}
+.contact-box h4{
+    font:16px "Microsoft Yahei";
+    text-align:center;
+    height:40px;
+    color:#000;
+    border-bottom:2px solid #FBCE2D;
+    padding:50px 0;
+}
+#map{
+    width:700px;
+    height:400px;
+    display:inline-block;
+}
+.contact-text{
+    padding:80px 10px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.contact-detail{
+    display:inline-block;
+}
+.contact-detail>p{
+    color:red;
+    font-size:28px;
+    margin-bottom:15px;
+}
+.contact-detail ul li{
+    padding:8px;
+    font: 16px Arial;
+}

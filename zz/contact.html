@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="cache-control" content="no-cache">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/header.css">
+   <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <<link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="font_zz/iconfont.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=TPaGp5xQ5uMsnHOpTjOaC9cQQaR3pLeN"></script>
+</head>
+<body>
+    <div class="main">
+        <header id="header"></header>
+        <img src="imgs/index/contact.png">
+        <div class="contact-box">
+            <h4>联系我们</h4>
+            <div class="contact-text">
+                <div class=contact-detail>
+                    <p>安徽真挚婚纱摄影有限公司</p>
+                    <ul>
+                        <li>地址：合肥市高新区科学大道6888号</li>
+                        <li>邮编：230011</li>
+                        <li>电话：0551-62228888</li>
+                        <li>传真：0551-62228889</li>
+                        <li>网址：</li>
+                    </ul>
+                </div>
+                <div id="map"></div>
+            </div>
+        </div>
+        <footer id="footer"></footer>
+    </div>
+    <script type="text/javascript">
+        var map = new BMap.Map("map");
+        var point = new BMap.Point(117.204681,31.817646);
+        map.centerAndZoom(point,15);
+        map.addControl(new BMap.NavigationControl());
+        map.addControl(new BMap.ScaleControl());
+        map.addControl(new BMap.OverviewMapControl());
+        map.addControl(new BMap.MapTypeControl());
+    </script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+</body>
+</html>

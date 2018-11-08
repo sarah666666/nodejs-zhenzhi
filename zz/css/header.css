@@ -1,0 +1,200 @@
+#header{
+    width:1200px;
+}
+.header{
+    background-color:#1F2025;
+    width:1200px;
+    height:100px;
+    padding-top:15px;
+}
+
+.header div.number{
+    float:right;
+    font-size:13px;
+    margin-top:10px;
+}
+.header div.number a{
+    color:#fff;
+}
+.header div.number a:hover{
+    color:#FFBF00;
+    text-decoration:none;
+}
+.header div.number>a>p{
+    font-size:28px;
+}
+.header div.number div{
+    font-size:13px;
+}
+.header>ul>li{
+    margin-top:10px;
+    float:left;
+    padding:10px;
+    text-align: center;
+}
+.header>ul>li>a>p{
+    margin-top:3px;
+}
+.header>ul>li>a{
+    color:#fff;
+    text-decoration:none;
+}
+.header>ul>li>a:hover{
+    color:#FFBF00;
+}
+
+.young{
+    float:left;
+    position:relative;
+    width:437px;
+    height:64px;
+}
+.young>div>a{
+    width:64px;
+    position:absolute;
+    top:0;
+    left:0;
+    transition:all 1s linear;
+}
+.young>div>a:hover{
+    left:10px;
+}
+.nav{
+    background-color:#DA0023;
+    height:100px;
+}
+.nav p{
+    float:left;
+    padding-left:60px;
+    background:url(../imgs/index/logo.png) no-repeat left center;
+    font:30px "KaiTi";
+    height:100px;
+    line-height:100px;
+    color:#fff;
+    margin-right:50px;
+}
+.nav>ul{float:left;height:100px;position:relative;}
+.nav>ul>li{
+    float:left;
+    width:94px;
+    margin:0 5px;
+    text-align:center;
+    height:100px;
+    line-height:100px;
+}
+
+.nav>ul>li>a:hover{
+    color:#FFE401;
+    font-size:22px;
+}
+.nav>ul>li.takePhoto{
+    position:relative;
+}
+
+.nav>ul>li.takePhoto ul{
+    position:absolute;
+    top:100px;
+    left:0;
+    width:94px;
+    z-index: 10;
+    overflow:hidden;
+    background-color:#000;
+    transition:all 0.3s linear;
+
+}
+.nav>ul>li.takePhoto ul li{
+    width:94px;
+    text-align:center;
+    height:50px;
+    line-height:50px;
+}
+.nav>ul>li>a{
+    color:#FFFDFF;
+    font:16px "Microsoft yaHei";
+    text-decoration:none;
+}
+.nav>ul>li.takePhoto ul li a{
+    color: #FFFDFF;
+    font: 16px "Microsoft yaHei";
+    text-decoration: none;
+    padding:2px 8px;
+
+}
+.nav>ul>li.takePhoto ul{
+    height:0;
+    line-height:100px;
+    transition:all .5s linear;
+}
+.nav>ul>li.takePhoto:hover ul{
+    height:100px;
+}
+.nav>ul>li.venueSum ul{
+    height:0;
+    line-height:300px;
+}
+.nav>ul>li.venueSum:hover ul{
+    height:300px;
+}
+
+.nav>ul>li.takePhoto:hover{
+    background-color:#000;
+}
+.nav>ul>li.takePhoto ul li a:hover{
+    background-color:#DA0023;
+}
+/**************************** 左侧悬浮框  ***********************************/
+.left-banner{
+    height:450px;
+    position:fixed;
+    left:10px;
+    text-align: center;
+    z-index:100;
+}
+.left-banner span.close{
+    position:absolute;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    text-align:center;
+    cursor:pointer;
+    color:black;
+    top:-15px;
+    right:-15px;
+}
+.left-banner li a{
+    display:block;
+    width:100px;
+    background-color:#FFE900;
+    font:14px "Microsoft Yahei";
+    font-weight:bold;
+    padding:5px 0;
+}
+.left-banner li a p{
+    font:12px "Microsoft Yahei";
+    color:red;
+}
+.left-banner li a p.other{
+    font-size:13px;
+    color:black;
+}
+.left-banner li div.black-block{
+    width:95px;
+    height:10px;
+    background-color:#2a2a2a;
+}
+.left-banner>p{
+    height:30px;
+    width:50px;
+    border-right:1px solid #BE4D3F;
+}
+/**************************** 页面右侧圆形悬浮框  ***********************************/
+#svg{
+    position:fixed;
+    top:50px;
+    right:0;
+}
+#svg:hover{
+    cursor:pointer;
+}
+
+

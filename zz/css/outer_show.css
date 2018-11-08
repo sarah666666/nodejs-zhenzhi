@@ -1,0 +1,32 @@
+.content{
+    margin:20px 0;
+}
+.week-header{
+    width:910px;
+    text-align:center;
+    font-size:28px;
+    color:#FF283C;
+    margin:0 auto;
+    margin-top:30px;
+    margin-bottom:40px;
+
+}
+.week-header>div>span{
+    color:#323232;
+}
+.week-header>p{
+    color:#D3D0D0;
+    font-size:12px;
+}
+.pic_show{
+    width:910px;
+    margin:0 auto;
+}
+.pic_show img{
+    display:block;
+    padding:15px;
+    border:1px solid #ddd;
+    box-shadow:0 -5px 5px 1px #ddd,-5px 0 5px 1px #ddd,5px 0 5px 1px #ddd,0 5px 5px 1px #ddd;
+    margin:0 auto;
+    margin-bottom:25px;
+}

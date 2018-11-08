@@ -1,0 +1,185 @@
+.container{
+    width:1200px;
+    height:1100px;
+    background:-webkit-linear-gradient(top,#FFF2E2,#D7E8EA);
+    margin:0 auto;
+    padding-top:40px;
+    position:relative;
+}
+.container div.form-header{
+    width:700px;
+    height:137px;
+    background-color:#fff;
+    margin:0px auto;
+    border-bottom:1px solid #858586;
+    padding-left:20px;
+    padding-bottom:5px;
+}
+.container div.form-header h2{
+    color:#222;
+    font:16px "Microsoft Yahei";
+    text-align:center;
+    font-weight:600;
+    padding:30px 0 20px 0;
+}
+.container div.form-header p{
+    padding:5px 0;
+}
+.container div.form-header span{
+    color:#ff0000;
+    font-size:16px;
+    font-weight:600;
+}
+.container form{
+    width:700px;
+    background-color:#fff;
+    margin:0px auto;
+    padding:20px;
+}
+.first-step{
+    width:660px;
+    height:450px;
+}
+.container form p{
+    font-size:14px;
+    font-weight:bold;
+    color:#222;
+    margin-bottom:5px;
+}
+.first-step li{
+    width:150px;
+    height:180px;
+    border:1px solid #858586;
+    border-radius:3px;
+    padding:5px;
+    float:left;
+    margin:7px 15px 15px 0;
+}
+.first-step li:hover{
+    cursor:pointer;
+    border-color:#009AFF;
+}
+.first-step li img{
+    border-radius:3px;
+}
+.first-step li input{
+    height:15px;
+    width:15px;
+    border:1px solid #222;
+    margin:8px 30px 0 0;
+}
+.second-step{
+    width:660px;
+    height:100px;
+}
+.second-step div{
+    font-size:12px;
+    font-weight:bold;
+    color:#222;
+    margin-bottom:7px;
+}
+.third-step{
+    width:660px;
+    height:180px;
+    position:relative;
+    border-bottom:1px dashed #858586;
+}
+.third-step input{
+    display: block;
+    margin:7px 0;
+    height:25px;
+    width:250px;
+    padding-left:23px;
+}
+.third-step i.icon-phone{
+    font-size:15px;
+    position:absolute;
+    top:47px;
+    left:3px;
+}
+.third-step i.icon-idcard2f{
+    font-size:15px;
+    position:absolute;
+    left:5px;
+}
+.third-step b{
+    font-size:14px;
+    font-weight:bold;
+    color:#222;
+}
+.third-step div.vali{
+    color:#FF1A1A;
+    margin-bottom:10px;
+    display:none;
+}
+.third-step div.vali i{
+    font-size:12px;
+}
+.third-step div.alert{
+    display:block;
+}
+.how-many{
+    height:50px;
+    width:660px;
+    text-align:center;
+    line-height: 50px;
+}
+.how-many b{
+    color:#FF1A1A;
+    font-size:23px;
+}
+.get-quote{
+    height:50px;
+    width:660px;
+    text-align:center;
+    line-height: 50px;
+    border-top:1px solid #858586;
+}
+.get-quote button{
+    color:#fff;
+    background-color:#FF1A1A;
+    font-size:13px;
+    width:250px;
+    height:25px;
+    vertical-align:middle;
+}
+.get-quote button:hover{
+    cursor:pointer;
+}
+/*********************  遮罩层设置  *****************************/
+.cover{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0,0.5);
+    z-index: 100;
+    text-align: center;
+    padding-top:40px;
+    display:none;
+}
+.cover div.pic-details{
+    height:40px;
+    line-height: 40px;
+    padding:0 15px;
+    background-color:#fff;
+    width:500px;
+    margin:0 auto;
+    color:#000;
+}
+.cover div.pic-details p{
+    float:left;
+}
+.cover div.pic-details span{
+    float:right;
+}
+.cover div.pic-details span:hover{
+    cursor:pointer;
+    color:darkgray;
+}
+
+
+
+
+

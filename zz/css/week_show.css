@@ -1,0 +1,63 @@
+.content{
+    margin:20px 0;
+}
+.leftList{
+    width:290px;
+    border-right:1px solid #ddd;
+    position:fixed;
+}
+.leftList div.month{
+    margin-bottom:10px;
+}
+.leftList div.m{
+    color:#333;
+    font:30px "Microsoft YaHei";
+    margin-bottom:10px;
+}
+.leftList div.s a{
+    width:118px;
+    height:27px;
+    display:inline-block;
+    color:#000;
+    text-align:center;
+    margin:0 5px 2px 0;
+    background-color:#ddd;
+    font:16px "Microsoft YaHei";
+    border-radius:5px;
+    box-sizing:border-box;
+    line-height:27px;
+}
+.leftList div.s a.active{
+    background-color:#DC0800;
+}
+div.none{
+    height:430px;
+}
+.week-header{
+    width:910px;
+    margin-left:290px;
+    text-align:center;
+    font-size:28px;
+    color:#FF283C;
+    margin-top:30px;
+    margin-bottom:40px;
+}
+.week-header>div>span{
+    color:#323232;
+}
+.week-header>p{
+    color:#D3D0D0;
+    font-size:12px;
+}
+.pic_show{
+    width:910px;
+    margin-left:290px;
+}
+.pic_show img{
+    display:block;
+    padding:15px;
+    border:1px solid #ddd;
+    box-shadow:0 -5px 5px 1px #ddd,-5px 0 5px 1px #ddd,5px 0 5px 1px #ddd,0 5px 5px 1px #ddd;
+    margin:0 auto;
+    margin-bottom:25px;
+}
